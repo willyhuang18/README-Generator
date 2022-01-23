@@ -30,7 +30,7 @@ function generateMarkdown(data) {
   #Usage
   Here is the example and the instruction, ${data.Usage}
   #License
-  The license for this project will be ${data.license} license.
+  Licensed under the ${data.license} license.
   #Feature
   The Feature will be ${data.feature}
   #Contributors
