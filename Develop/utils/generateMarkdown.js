@@ -24,9 +24,9 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
   https://github.com/${data.username}/${data.title}
-  #Description
+  # Description
   ${data.Description}
-  #Table of Content:
+  # Table of Content:
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
@@ -35,19 +35,19 @@ function generateMarkdown(data) {
 * [Contributor](#Contributor)
 * [Test](#test)
 * [Author](#author)
-  #Installation
+  # Installation
   The step will need for the installation in order to run this application:${data.installation}
-  #Usage
+  # Usage
   Here is the example and the instruction, ${data.Usage}
-  #License
+  # License
   Licensed under the [${data.license}](https://img.shields.io/badge/license-${data.license}-blue.svg) license.
-  #Feature
+  # Feature
   The Feature will be ${data.feature}
-  #Contributors
+  # Contributors
   Contributor:${data.Contributing}
-  #Test
+  # Test
   command line: ${data.test}
-  #Author
+  # Author
   - ${data.username}
   - ${data.Email}
   `;
