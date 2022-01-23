@@ -13,7 +13,7 @@ const questions = [{
 },{
     type:'input',
     message:'Give me a Table of Content if your README will be long: ',
-    name: 'Table of Contents'
+    name: 'Contents'
 },{
     type:'input',
     message:'What is your Installation about your project? ',
@@ -27,9 +27,10 @@ const questions = [{
     message:'Please name the collaborators in this project if you have any:  ',
     name: 'Credits'
 },{
-    type:'input',
+    type: 'checkbox',
+    name: 'license',
     message:'What is license you had use?(for example: MIT)',
-    name: 'License'
+    choices: ['MIT', 'ISC', 'IBM', 'Mozilla',]
 },{
     type:'input',
     message:'Do you want Badges?',
