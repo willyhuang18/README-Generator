@@ -1,6 +1,16 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  if(license === 'MIT'){
+    return`![Apache](https://img.shields.io/badge/license-MIT-blue.svg)`;
+  }else if (license==='ISC'){
+    return '![ISC](https://img.shields.io/badge/License-ISC-blue.svg)'
+  }else if (license ==='IBM'){
+    return '![IBM](https://img.shields.io/badge/License-IPL_1.0-blue.svg)'
+  }else if(license ==='Mozilla'){
+    return '![Mozilla](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)'
+  }
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
