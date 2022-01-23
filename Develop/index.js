@@ -31,11 +31,12 @@ const questions = [{
     type: 'checkbox',
     name: 'license',
     message:'What is license you had use?(for example: MIT)',
-    choices: ['MIT', 'ISC', 'IBM', 'Mozilla',]
+    choices: ['mit', 'isc', 'apache-2.0', 'gpl-3.0',]
 },{
-    type:'input',
+    type:'checkbox',
     message:'Do you want Badges?',
-    name: 'Badges'
+    name: 'Badges',
+    choices: ['MIT', 'ISC', 'IBM', 'Mozilla',]
 },{
     type:'input',
     message:'What are the Features in the projects?',
