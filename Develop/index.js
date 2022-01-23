@@ -46,6 +46,14 @@ const questions = [{
     type:'input',
     message:'What command is needed to run this application?',
     name: 'Tests'
+},{
+    type:'input',
+    message:'What is your github username?',
+    name: 'username'
+},{
+    type:'input',
+    message:'What is you Email?',
+    name: 'Email'
 }];
 console.log(questions);
 // TODO: Create a function to write README file
