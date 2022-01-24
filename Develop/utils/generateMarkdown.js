@@ -37,14 +37,14 @@ function generateMarkdown(data) {
 * [Test](#test)
 * [Author](#author)
   # Installation
-  The step will need for the installation in order to run this application:${data.installation}
+  The step will need for the installation in order to run this application:${data.Installation}
   # Usage
   Here is the example and the instruction, ${data.Usage}
   # License
   [${data.Badges}](https://img.shields.io/badge/license-${data.Badges}-blue.svg)
   Licensed under the [${data.license}](https://choosealicense.com/licenses/${data.license}/) license.
   # Feature
-  The Feature will be ${data.feature}
+  The Feature will be ${data.Features}
   # Contributors
   Contributor:${data.Contributing}
   # Test
