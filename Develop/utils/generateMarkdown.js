@@ -50,8 +50,8 @@ function generateMarkdown(data) {
   # Test
   command line: ${data.Tests}
   # Author
-  - ${data.username}
-  - ${data.Email}
+  - [Github](https://github.com/${data.username}/)
+  - <a href="mailto:s${data.Email}">Email</a>  
   `;
 }
 
