@@ -34,9 +34,9 @@ const questions = [{
     choices: ['mit', 'isc', 'apache-2.0', 'gpl-3.0',]
 },{
     type:'checkbox',
-    message:'Do you want Badges?',
+    message:'Select a license you want: ',
     name: 'Badges',
-    choices: ['MIT', 'ISC', 'IBM', 'Mozilla',]
+    choices: ['MIT', 'ISC', 'Apache', 'GNU',]
 },{
     type:'input',
     message:'What are the Features in the projects?',
