@@ -21,7 +21,7 @@ const questions = [{
     name: 'Installation'
 },{
     type:'input',
-    message:'Please describe how is the app used:  ',
+    message:'Please describe how to use the app:  ',
     name: 'Usage'
 },{
     type:'input',

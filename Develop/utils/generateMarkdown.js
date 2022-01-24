@@ -40,9 +40,8 @@ function generateMarkdown(data) {
   # Usage
   Here is the example and the instruction, ${data.Usage}
   # License
-  Licensed under the [${data.license}](https://choosealicense.com/licenses/${data.license}/) license.
-  # Badge
   [${data.Badge}](https://img.shields.io/badge/license-${data.Badge}-blue.svg)
+  Licensed under the [${data.license}](https://choosealicense.com/licenses/${data.license}/) license.
   # Feature
   The Feature will be ${data.feature}
   # Contributors
