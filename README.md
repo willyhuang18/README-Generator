@@ -29,8 +29,8 @@ This application contains the information about I had learn, and the work I have
 ![image](https://user-images.githubusercontent.com/87446864/150740228-d7344454-1251-45d8-945b-2e2eb5275dc4.png)
 
 
-# Deployed Link
-
+# Demo  
+The walk-trough video will be inside the develop file.
 
 # Authors
 PangTa Huang
